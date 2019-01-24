@@ -99,7 +99,7 @@ The open a terminal and navigate to the gobuster folder.
 
 Then simple execute the script (as root or with root privileges).
 
-... code-block:: console
+.. code-block:: console
 
     sudo sh ./setup.sh
 
@@ -108,7 +108,7 @@ Tips
 
 To connect bluetooth LE devices, first execute in terminal
 
-... code-block:: console
+.. code-block:: console
 
     sudo hcitool lescan
 
