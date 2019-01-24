@@ -89,7 +89,15 @@ The following settings are used and are different to the defaults.
 
 First, download the git folder to your home folder.
 
-The open a terminal and navigate to the gobuster folder.
+.. code-block:: console
+
+    git clone https://github.com/choeffer/gobuster.git
+
+Then navigate to the gobuster folder
+
+.. code-block::
+
+    cd gobuster
 
 .. note::
 
@@ -97,7 +105,7 @@ The open a terminal and navigate to the gobuster folder.
     added to /etc/apt/sources.list and that the system has installed 
     latest updates (apt-get update && apt-get dist-upgrade).
 
-Then simple execute the script (as root or with root privileges).
+and simple execute the script (as root or with root privileges).
 
 .. code-block:: console
 
