@@ -131,7 +131,8 @@ and then the devices are visible via GNOME Settings.
 Battery
 ^^^^^^^
 
-In the UEFI it is possible to set a charging limit.
+In the UEFI it is possible to set a charging limit, see 
+`Battery Limit setting`_ .
 
 References
 ----------
@@ -141,3 +142,4 @@ References
 .. _Dock: https://www.microsoft.com/en-us/p/surface-dock/8qrh2npz0s0p
 .. _`Surface Go update history`: https://support.microsoft.com/en-us/help/4455978/surface-go-update-history
 .. _debian-installer: https://www.debian.org/devel/debian-installer/index.en.html
+.. _`Battery Limit setting`: https://docs.microsoft.com/en-us/surface/battery-limit
