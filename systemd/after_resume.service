@@ -1,0 +1,12 @@
+[Unit]
+Description=After Resume
+After=suspend.target
+Documentation=https://wiki.archlinux.org/index.php/Power_management
+Documentation=https://www.freedesktop.org/software/systemd/man/systemd.service.html
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/after_resume.sh
+
+[Install]
+WantedBy=suspend.target

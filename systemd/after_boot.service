@@ -1,0 +1,12 @@
+[Unit]
+Description=After Boot
+After=basic.target
+Documentation=https://www.freedesktop.org/software/systemd/man/bootup.html
+Documentation=https://www.freedesktop.org/software/systemd/man/systemd.service.html
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/after_boot.sh
+
+[Install]
+WantedBy=multi-user.target
