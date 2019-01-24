@@ -114,6 +114,9 @@ and simple execute the script (as root or with root privileges).
 Tips
 ----
 
+Bluetooth
+^^^^^^^^^
+
 To connect bluetooth LE devices, first execute in terminal
 
 .. code-block:: console
@@ -121,6 +124,9 @@ To connect bluetooth LE devices, first execute in terminal
     sudo hcitool lescan
 
 and then the devices are visible via GNOME Settings.
+
+Battery
+^^^^^^^
 
 In the UEFI it is possible to set a charging limit 
 
