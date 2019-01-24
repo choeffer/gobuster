@@ -77,11 +77,11 @@ The following settings are used and are different to the defaults.
 
     * Configure boot device order
 
-        "1." USB Storage
-        "2." Windows Boot Manager
-        "3." Internal Storage
-        "4." Network Boot-IPV4
-        "5." Network Boot-IPV6
+        1. USB Storage
+        2. Windows Boot Manager
+        3. Internal Storage
+        4. Network Boot-IPV4
+        5. Network Boot-IPV6
 
     * Kiosk Mode
     
