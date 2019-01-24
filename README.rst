@@ -50,8 +50,7 @@ Installation
 Before installing Debian, please ensure that secure boot is disabled.
 
 The script is tested with the following settings/versions in UEFI. 
-See https://support.microsoft.com/en-us/help/4455978/surface-go-update-history
-for latest changes.
+See `Surface Go update history`_ for latest changes.
 
 * Versions
     
@@ -140,4 +139,5 @@ References
 .. target-notes::
 
 .. _Dock: https://www.microsoft.com/en-us/p/surface-dock/8qrh2npz0s0p
+.. _`Surface Go update history`: https://support.microsoft.com/en-us/help/4455978/surface-go-update-history
 .. _debian-installer: https://www.debian.org/devel/debian-installer/index.en.html
