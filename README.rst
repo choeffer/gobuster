@@ -128,7 +128,7 @@ and then the devices are visible via GNOME Settings.
 Battery
 ^^^^^^^
 
-In the UEFI it is possible to set a charging limit 
+In the UEFI it is possible to set a charging limit.
 
 References
 ----------
