@@ -20,8 +20,9 @@ Feedback, issues, ideas, pull request etc. are welcome.
 
 What is working:
 
-* Type-Cover (backlight, FN keys, Touchpad)
-* Touchscreen incl. multitouch gestures of GNOME
+* Type-Cover (backlight, FN keys)
+* Touchpad (up to four finger gestures tested)
+* Touchscreen incl. `multitouch gestures`_ of GNOME
 * Pen (in Wayland even eraser is recognized at least in GNOME Settings)
 * Wifi
 * Bluetooth (just bluetooth LE devices are not found via GUI)
@@ -139,6 +140,7 @@ References
 
 .. target-notes::
 
+.. _`multitouch gestures`: https://wiki.gnome.org/Design/OS/Gestures
 .. _Dock: https://www.microsoft.com/en-us/p/surface-dock/8qrh2npz0s0p
 .. _`Surface Go update history`: https://support.microsoft.com/en-us/help/4455978/surface-go-update-history
 .. _debian-installer: https://www.debian.org/devel/debian-installer/index.en.html
