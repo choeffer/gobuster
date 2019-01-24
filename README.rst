@@ -29,7 +29,7 @@ What is working:
 * Power and Volume buttons
 * SD Card Reader
 * Hibernate
-* Suspend
+* Suspend (in 18h just 11% battery drain; one test run)
 * Sensors (accelerometer, gyroscope, ambient light sensor)
 * Battery Readings
 * Docking/Undocking Type-Cover
@@ -87,7 +87,11 @@ The following settings are used and are different to the defaults.
     
         * Battery Limit -> Enabled
 
-First, download the git folder to your home folder.
+The following debian installation image was used
+``debian-buster-DI-alpha4-amd64-netinst.iso``, see debian-installer_ .
+This is the recommended way to install Debian Buster/Testing right now.
+
+After installation, download the git folder to your home folder.
 
 .. code-block:: console
 
@@ -136,3 +140,4 @@ References
 .. target-notes::
 
 .. _Dock: https://www.microsoft.com/en-us/p/surface-dock/8qrh2npz0s0p
+.. _debian-installer: https://www.debian.org/devel/debian-installer/index.en.html
