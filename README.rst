@@ -169,7 +169,7 @@ enabled. This leads to a drastically lower battery drain in suspend
 Dock Ethernet (solved)
 ^^^^^^^^^^^^^^^^^^^^^^
 
-By default, the Ethernet chip is recognized but not fully funtional.
+By default, the Ethernet chip is recognized but not fully functional.
 I turns out that there are some power-management issues, see
 https://github.com/jakeday/linux-surface/issues/259. Therefore, via
 GRUB a kernel parameter is passed to the kernel to enable a quirk
