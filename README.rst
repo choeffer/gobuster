@@ -25,7 +25,7 @@ What is working:
 * Type-Cover (backlight, FN keys)
 * Touchpad (up to four finger gestures tested)
 * Touchscreen incl. `multitouch gestures`_ of GNOME
-* Pen (in Wayland even eraser is recognized at least in GNOME Settings)
+* Pen (in Wayland (Debian Buster default) even eraser is recognized, at least in GNOME Settings)
 * Wifi
 * Bluetooth (just bluetooth LE devices are not found via GUI)
 * Speakers
