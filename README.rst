@@ -41,7 +41,7 @@ What is working:
 
 Not tested but should work:
 
-* DisplayPort
+* DisplayPort via USB-C
 
 What is not working:
 
