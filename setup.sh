@@ -85,7 +85,11 @@ apt-get install firmware-atheros
 #md5sum ./firmware/board-2.bin
 #bc52aa5640b27fa50f9d4d144f81e169
 
-cp ./firmware/board-2.bin /lib/firmware/ath10k/QCA6174/hw3.0
+#remove board bins from debian package
+rm /lib/firmware/ath10k/QCA6174/hw3.0/board-2.bin
+rm /lib/firmware/ath10k/QCA6174/hw3.0/board.bin
+
+cp ./firmware/board.bin /lib/firmware/ath10k/QCA6174/hw3.0
 
 set +v
 
