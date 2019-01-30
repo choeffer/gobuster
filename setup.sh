@@ -77,12 +77,12 @@ update-grub
 
 #not yet implemented in the script, was not working atm, seems to conflict with the type-cover systemd service
 
-#### install firmware-atheros + board-2.bin for QCA6174 ####
+#### install firmware-atheros + board.bin for QCA6174 ####
 
 apt-get update
 apt-get install firmware-atheros
 
-#md5sum ./firmware/board-2.bin
+#md5sum ./firmware/board.bin
 #bc52aa5640b27fa50f9d4d144f81e169
 
 #remove board bins from debian package

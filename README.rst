@@ -145,7 +145,7 @@ Wifi (solved)
 ^^^^^^^^^^^^^
 
 In the latest firmware-atheros package the board data for the used
-QCA6174 wifi chip is missing. The needed board-2.bin is included here
+QCA6174 wifi chip is missing. The needed board.bin is included here
 and replaces the one from the debian package to get the wifi chip
 working. See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=919652 
 for more information.
