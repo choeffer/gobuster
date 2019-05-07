@@ -19,11 +19,7 @@ fi
 echo ""
 echo "######################## Warning ###############################"
 echo ""
-echo " Before executing the script, make sure that you:"
-echo ""
-echo " 1. added 'contrib non-free' to /etc/apt/sources.list"
-echo " 2. system have installed latest updates"
-echo " (apt-get update && apt-get dist-upgrade)."
+echo " This Script will add non-free repositories to your system"
 echo ""
 echo "################################################################"
 echo ""
@@ -34,8 +30,11 @@ read -r -p "Press Enter to continue or Ctrl+C to exit." key
 
 set -v
 
-#### install missing packages ####
+#### sets non-free repos and install missing packages ####
 #firmware for GPU and microcode for CPU
+
+sed -e '/main$/s/$/ contrib non-free/' /etc/apt/sources.list > /etc/apt/sources.list.new
+mv /etc/apt/sources.list.new /etc/apt/sources.list
 
 apt-get update
 apt-get dist-upgrade
