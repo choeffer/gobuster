@@ -106,12 +106,6 @@ Then navigate to the gobuster folder
 
     cd gobuster
 
-.. note::
-
-    Before executing the script please ensure that 'contrib non-free' are
-    added to /etc/apt/sources.list and that the system has installed 
-    latest updates (apt-get update && apt-get dist-upgrade).
-
 and simple execute the script (as root or with root privileges).
 
 .. code-block:: console
