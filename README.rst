@@ -87,8 +87,8 @@ The following settings are used and are different to the defaults.
         * Network Boot-IPV6
 
     * Kiosk Mode
-    
-        * Battery Limit -> Enabled
+
+        * Battery Limit -> Enabled , see `Battery`_ what this option does and if you want to enable it.
 
 The following debian installation image was used
 ``debian-buster-DI-alpha4-amd64-netinst.iso``, see debian-installer_ .
@@ -131,6 +131,8 @@ To connect bluetooth LE devices, first execute in terminal
     sudo hcitool lescan
 
 and then the devices are visible via GNOME Settings.
+
+.. _`Battery`:
 
 Battery
 ^^^^^^^
